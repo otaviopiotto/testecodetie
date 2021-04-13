@@ -9,7 +9,6 @@ export const Container = styled.section`
   .main-info {
     width: 100%;
     max-width: 850px;
-    height: 100%;
     margin: 0 auto;
     padding: 0 50px;
 

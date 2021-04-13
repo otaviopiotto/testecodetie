@@ -21,9 +21,9 @@ export default function Header() {
       setMenuColor(2);
     } else if (window.scrollY >= 3510 && window.scrollY < 4390) {
       setMenuColor(1);
-    } else if (window.scrollY >= 4400 && window.scrollY < 7200) {
+    } else if (window.scrollY >= 4400 && window.scrollY < 7600) {
       setMenuColor(2);
-    } else if (window.scrollY >= 7210) {
+    } else if (window.scrollY >= 7610) {
       setMenuColor(3);
     }
   };

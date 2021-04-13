@@ -71,7 +71,6 @@ export const Container = styled.section`
     .left-side {
       width: 100%;
       max-width: 500px;
-      padding-left: 6%;
       display: inline-block;
 
       h1 {

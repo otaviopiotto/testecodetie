@@ -19,7 +19,7 @@ export const profile = [
     peopleName: 'Karina Muniz Viana ',
     career: <Translator path="SeventhSection.People1.career" />,
     aboutMe: <Translator path="SeventhSection.People1.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/karina-muniz-viana-0ab653101/',
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const profile = [
     peopleName: 'Luis F. A. Costa',
     career: <Translator path="SeventhSection.People2.career" />,
     aboutMe: <Translator path="SeventhSection.People2.about" />,
-    href: '',
+    // href: '',
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const profile = [
     peopleName: 'Kristhyan Natal',
     career: <Translator path="SeventhSection.People3.career" />,
     aboutMe: <Translator path="SeventhSection.People3.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/kristhyan-natal-6603b638/',
   },
 
   {
@@ -44,7 +44,7 @@ export const profile = [
     peopleName: 'Aurélio Santana',
     career: <Translator path="SeventhSection.People4.career" />,
     aboutMe: <Translator path="SeventhSection.People4.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/aur%C3%A9lio-sant-anna-5b2838170/',
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const profile = [
     peopleName: 'Ericson Straub',
     career: <Translator path="SeventhSection.People5.career" />,
     aboutMe: <Translator path="SeventhSection.People5.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/ericsonstraub/',
   },
 
   {
@@ -61,7 +61,8 @@ export const profile = [
     peopleName: 'Maria Celeste Corrêa',
     career: <Translator path="SeventhSection.People6.career" />,
     aboutMe: <Translator path="SeventhSection.People6.about" />,
-    href: '',
+    href:
+      'https://www.linkedin.com/in/maria-celeste-fernandez-corrêa-a843b4152',
   },
   {
     id: 7,
@@ -69,7 +70,7 @@ export const profile = [
     peopleName: 'Zaira Sachetti',
     career: <Translator path="SeventhSection.People7.career" />,
     aboutMe: <Translator path="SeventhSection.People7.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/zaira-sachetti-09694976/',
   },
   {
     id: 8,
@@ -77,7 +78,7 @@ export const profile = [
     peopleName: 'Wil Caravanti',
     career: <Translator path="SeventhSection.People8.career" />,
     aboutMe: <Translator path="SeventhSection.People8.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/wil/',
   },
   {
     id: 9,
@@ -85,7 +86,7 @@ export const profile = [
     peopleName: 'Flávio Dantas',
     career: <Translator path="SeventhSection.People9.career" />,
     aboutMe: <Translator path="SeventhSection.People9.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/pixelsav/',
   },
   {
     id: 10,
@@ -93,7 +94,7 @@ export const profile = [
     peopleName: 'Leon Cezar',
     career: <Translator path="SeventhSection.People10.career" />,
     aboutMe: <Translator path="SeventhSection.People10.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/leon-costa-19a66373/',
   },
   {
     id: 11,
@@ -101,7 +102,7 @@ export const profile = [
     peopleName: 'Karina Muniz Viana ',
     career: <Translator path="SeventhSection.People1.career" />,
     aboutMe: <Translator path="SeventhSection.People1.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/karina-muniz-viana-0ab653101/',
   },
   {
     id: 12,
@@ -109,7 +110,7 @@ export const profile = [
     peopleName: 'Luis F. A. Costa',
     career: <Translator path="SeventhSection.People2.career" />,
     aboutMe: <Translator path="SeventhSection.People2.about" />,
-    href: '',
+    // href: '',
   },
   {
     id: 13,
@@ -117,7 +118,7 @@ export const profile = [
     peopleName: 'Kristhyan Natal',
     career: <Translator path="SeventhSection.People3.career" />,
     aboutMe: <Translator path="SeventhSection.People3.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/kristhyan-natal-6603b638/',
   },
 
   {
@@ -126,7 +127,7 @@ export const profile = [
     peopleName: 'Aurélio Santana',
     career: <Translator path="SeventhSection.People4.career" />,
     aboutMe: <Translator path="SeventhSection.People4.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/aur%C3%A9lio-sant-anna-5b2838170/',
   },
   {
     id: 15,
@@ -134,6 +135,6 @@ export const profile = [
     peopleName: 'Ericson Straub',
     career: <Translator path="SeventhSection.People5.career" />,
     aboutMe: <Translator path="SeventhSection.People5.about" />,
-    href: '',
+    href: 'https://www.linkedin.com/in/ericsonstraub/',
   },
 ];

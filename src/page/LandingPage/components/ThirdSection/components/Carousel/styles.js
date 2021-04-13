@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   ${(props) => {
-    if (props.propSlider === '1') {
+    if (props.propSlider === 1) {
       return css`
         .dots {
           button:nth-child(1) {
@@ -15,7 +15,7 @@ export const Container = styled.div`
         }
       `;
     }
-    if (props.propSlider === '2') {
+    if (props.propSlider === 2) {
       return css`
         .dots {
           button:nth-child(2) {
@@ -28,7 +28,7 @@ export const Container = styled.div`
         }
       `;
     }
-    if (props.propSlider === '3') {
+    if (props.propSlider === 3) {
       return css`
         .dots {
           button:nth-child(3) {
@@ -41,7 +41,7 @@ export const Container = styled.div`
         }
       `;
     }
-    if (props.propSlider === '4') {
+    if (props.propSlider === 4) {
       return css`
         .dots {
           button:nth-child(4) {
@@ -54,7 +54,7 @@ export const Container = styled.div`
         }
       `;
     }
-    if (props.propSlider === '5') {
+    if (props.propSlider === 5) {
       return css`
         .dots {
           button:nth-child(5) {
@@ -67,7 +67,7 @@ export const Container = styled.div`
         }
       `;
     }
-    if (props.propSlider === '6') {
+    if (props.propSlider === 6) {
       return css`
         .dots {
           button:nth-child(6) {
@@ -80,23 +80,10 @@ export const Container = styled.div`
         }
       `;
     }
-    if (props.propSlider === '7') {
+    if (props.propSlider === 7) {
       return css`
         .dots {
           button:nth-child(7) {
-            border: solid 1px var(--SecondaryColor) !important;
-
-            div {
-              background: var(--SecondaryColor);
-            }
-          }
-        }
-      `;
-    }
-    if (props.propSlider === '5') {
-      return css`
-        .dots {
-          button:nth-child(5) {
             border: solid 1px var(--SecondaryColor) !important;
 
             div {

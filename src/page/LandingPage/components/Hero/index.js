@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeroVideo from '../../../../assets/video/GLOBO-DESKTOP.mp4';
+import HeroVideo from '../../../../assets/video/GLOBO-DESKTOP.m4v';
 
 import { ReactComponent as LogoPlaneta } from '../../../../assets/svg/logo-cultura.svg';
 import { Container } from './styles';

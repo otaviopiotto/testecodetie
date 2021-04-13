@@ -52,9 +52,17 @@ export default function Perfil() {
                 <div className="people-pic">
                   {item.pic}
                   {item.pic}
-                  <a href={item.href} alt="linkedin" className="linkedin">
-                    <FaLinkedinIn />
-                  </a>
+                  {item.href ? (
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      alt="linkedin"
+                      className="linkedin"
+                    >
+                      <FaLinkedinIn />
+                    </a>
+                  ) : null}
                 </div>
 
                 <div className="about-me">

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { Container } from './styles';
 import { CarouselImage } from './mocks';
@@ -7,6 +7,7 @@ import Translator from '../../../../../../components/i18n/translator';
 
 export default function Carousel() {
   const [handleSlider, setSlider] = useState(1);
+  // const [SliderStatus, setSliderStatus] = useState(true);
 
   const showDescription = () => {
     switch (handleSlider) {
@@ -144,7 +145,7 @@ export default function Carousel() {
   };
 
   const nextSlider = () => {
-    if (handleSlider !== 12) {
+    if (handleSlider !== 10) {
       setSlider(handleSlider + 1);
     } else {
       setSlider(1);
@@ -155,9 +156,17 @@ export default function Carousel() {
     if (handleSlider !== 1) {
       setSlider(handleSlider - 1);
     } else {
-      setSlider(12);
+      setSlider(10);
     }
   };
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      nextSlider();
+    }, 3000);
+
+    return () => clearTimeout(timeout);
+  }, [handleSlider]);
 
   return (
     <Container propSlider={handleSlider}>
@@ -197,7 +206,7 @@ export default function Carousel() {
         </button>
       </div>
       <div className="dots">
-        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((dot) => (
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((dot) => (
           <button
             type="button"
             key={dot}

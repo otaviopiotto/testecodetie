@@ -10,13 +10,13 @@ import Slide7 from '../../../../../../assets/img/CONSUMO.jpg';
 import Slide8 from '../../../../../../assets/img/agua-eh-prazer.jpg';
 import Slide9 from '../../../../../../assets/img/agua-eh-tecnologia-desenvolvimeto.jpg';
 import Slide10 from '../../../../../../assets/img/agua-eh-energia.jpg';
-import Slide11 from '../../../../../../assets/img/AMEAÇAS-À-ÁGUA.jpg';
-import Slide12 from '../../../../../../assets/img/agua-eh-cultura.jpg';
+// import Slide11 from '../../../../../../assets/img/AMEAÇAS-À-ÁGUA.jpg';
+// import Slide12 from '../../../../../../assets/img/agua-eh-cultura.jpg';
 
 export const CarouselImage = [
   {
     id: 13,
-    img: <img src={Slide12} draggable="true" alt="slide-img" />,
+    img: <img src={Slide10} draggable="true" alt="slide-img" />,
   },
 
   {
@@ -66,14 +66,6 @@ export const CarouselImage = [
   {
     id: 10,
     img: <img src={Slide10} draggable="true" alt="slide-img" />,
-  },
-  {
-    id: 11,
-    img: <img src={Slide11} draggable="true" alt="slide-img" />,
-  },
-  {
-    id: 12,
-    img: <img src={Slide12} draggable="true" alt="slide-img" />,
   },
 
   {

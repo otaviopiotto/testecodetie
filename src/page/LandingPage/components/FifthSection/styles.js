@@ -6,7 +6,7 @@ export const Container = styled.section`
   padding: 150px 0;
   position: relative;
   overflow: hidden;
-  background: var(--SecondaryColor);
+  background: #04a0cd;
 
   @media screen and (max-width: 960px) {
     .right-side {

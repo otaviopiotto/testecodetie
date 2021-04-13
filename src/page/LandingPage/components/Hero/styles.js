@@ -24,7 +24,7 @@ export const Container = styled.section`
 
   video {
     width: 100%;
-    min-width: 1300px;
+    min-width: 1680px;
     position: absolute;
     top: 50%;
     left: 50%;

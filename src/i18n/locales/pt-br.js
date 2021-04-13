@@ -41,7 +41,7 @@ export default {
     },
 
     ThirdSection: {
-      title: 'Design doEspaço',
+      title: 'Design do Espaço',
       description:
         ' No Museu Planeta Água, o conhecimento e as experiências sobre a água serão ofertados aos visitantes a partir de oito visões distintas, porém complementares e integradas.',
     },

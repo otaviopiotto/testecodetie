@@ -23,6 +23,21 @@ export const MainContainer = styled.div`
     .division-animation {
       height: 90px !important;
     }
+
+    .instagram-call {
+      a {
+        width: 58px !important;
+        height: 58px !important;
+      }
+
+      div {
+        left: 0 !important;
+      }
+
+      span {
+        display: none;
+      }
+    }
   }
 
   .instagram-call {
@@ -135,7 +150,6 @@ export const MainContainer = styled.div`
   .division-animation {
     width: 100%;
     height: 200px;
-    overflow: hidden;
     position: relative;
 
     svg {

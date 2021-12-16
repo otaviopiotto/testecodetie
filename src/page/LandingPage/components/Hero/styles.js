@@ -15,19 +15,25 @@ export const Container = styled.section`
 
   .middle-logo-cultura {
     width: 300px;
-    z-index: 1;
+    z-index: 3;
     position: absolute;
     bottom: 120px;
     left: 50%;
     transform: translateX(-50%);
   }
 
-  video {
+  video,
+  img {
     width: 100%;
     min-width: 1680px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  img {
+    z-index: 1 !important;
   }
 `;

@@ -34,6 +34,7 @@ export const Container = styled.section`
   }
 
   img {
+    width: 120% !important ;
     z-index: 1 !important;
   }
 `;

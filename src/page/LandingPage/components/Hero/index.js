@@ -1,6 +1,5 @@
 import React from 'react';
-
-import HeroImgPlaceholder from '../../../../assets/video/GLOBO-DESKTOP.8b460fe4.jpg';
+import HeroImgPlaceholder from '../../../../assets/img/GLOBO-DESKTOP.8b460fe4.jpg';
 import HeroVideo from '../../../../assets/video/GLOBO-DESKTOP.m4v';
 
 import { ReactComponent as LogoPlaneta } from '../../../../assets/svg/logo-cultura.svg';
